@@ -103,7 +103,7 @@ int BST::get(int key){
     if (node != nullptr) {
         return node->val;
     } else {
-        std::cout << "There is no key of that value in this map !\n";
+        std::cout << "There is no key of that value in this BST !\n";
         return -1;
     }
 }

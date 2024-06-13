@@ -55,14 +55,20 @@ build CMakeFiles/SD3.dir/main.cpp.obj: CXX_COMPILER__SD3_unscanned_Debug C$:/Use
   OBJECT_DIR = CMakeFiles\SD3.dir
   OBJECT_FILE_DIR = CMakeFiles\SD3.dir
 
-build CMakeFiles/SD3.dir/HashTable.cpp.obj: CXX_COMPILER__SD3_unscanned_Debug C$:/Users/stasi/OneDrive$ -$ Politechnika$ Wroclawska/CLionProjects/SD3/HashTable.cpp || cmake_object_order_depends_target_SD3
-  DEP_FILE = CMakeFiles\SD3.dir\HashTable.cpp.obj.d
+build CMakeFiles/SD3.dir/SeparateChaining.cpp.obj: CXX_COMPILER__SD3_unscanned_Debug C$:/Users/stasi/OneDrive$ -$ Politechnika$ Wroclawska/CLionProjects/SD3/SeparateChaining.cpp || cmake_object_order_depends_target_SD3
+  DEP_FILE = CMakeFiles\SD3.dir\SeparateChaining.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\SD3.dir
   OBJECT_FILE_DIR = CMakeFiles\SD3.dir
 
 build CMakeFiles/SD3.dir/BST.cpp.obj: CXX_COMPILER__SD3_unscanned_Debug C$:/Users/stasi/OneDrive$ -$ Politechnika$ Wroclawska/CLionProjects/SD3/BST.cpp || cmake_object_order_depends_target_SD3
   DEP_FILE = CMakeFiles\SD3.dir\BST.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SD3.dir
+  OBJECT_FILE_DIR = CMakeFiles\SD3.dir
+
+build CMakeFiles/SD3.dir/CuckooHashTable.cpp.obj: CXX_COMPILER__SD3_unscanned_Debug C$:/Users/stasi/OneDrive$ -$ Politechnika$ Wroclawska/CLionProjects/SD3/CuckooHashTable.cpp || cmake_object_order_depends_target_SD3
+  DEP_FILE = CMakeFiles\SD3.dir\CuckooHashTable.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\SD3.dir
   OBJECT_FILE_DIR = CMakeFiles\SD3.dir
@@ -75,7 +81,7 @@ build CMakeFiles/SD3.dir/BST.cpp.obj: CXX_COMPILER__SD3_unscanned_Debug C$:/User
 #############################################
 # Link the executable SD3.exe
 
-build SD3.exe: CXX_EXECUTABLE_LINKER__SD3_Debug CMakeFiles/SD3.dir/main.cpp.obj CMakeFiles/SD3.dir/HashTable.cpp.obj CMakeFiles/SD3.dir/BST.cpp.obj
+build SD3.exe: CXX_EXECUTABLE_LINKER__SD3_Debug CMakeFiles/SD3.dir/main.cpp.obj CMakeFiles/SD3.dir/SeparateChaining.cpp.obj CMakeFiles/SD3.dir/BST.cpp.obj CMakeFiles/SD3.dir/CuckooHashTable.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SD3.dir

@@ -2,19 +2,21 @@
 // Created by stasi on 28.05.2024.
 //
 
-#ifndef SD3_HASHTABLE_H
-#define SD3_HASHTABLE_H
+#ifndef SD3_SEPARATECHAINING_H
+#define SD3_SEPARATECHAINING_H
 
 //Separate Chaining
 #include <iostream>
 #include "BST.h"
 
-class HashTable : public BST{
-    static const int TABLE_SIZE = 100;
+class SeparateChaining : public BST{
+    int size;
+    int capacity;
     BST* table;
 public:
-    HashTable();
-    ~HashTable();
+    
+    SeparateChaining(int size);
+    ~SeparateChaining();
     int hash(int key);
     void insert(int key, int val);
     void remove(int key);
@@ -25,4 +27,4 @@ public:
 };
 
 
-#endif //SD3_HASHTABLE_H
+#endif //SD3_SEPARATECHAINING_H
