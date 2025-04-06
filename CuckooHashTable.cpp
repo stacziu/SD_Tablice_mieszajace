@@ -50,7 +50,6 @@ void CuckooHashTable::insert(int key, int val) {
     // Dojscie do tego miejsca w kodzie oznacza, ze przekroczono maksymalna liczbe cykli
     // nalezy wiec zwiekszyc rozmiary tablic.
     resize();
-    // Then, try to insert the newNode again.
 }
 
 void CuckooHashTable::remove(int key) {
@@ -83,7 +82,7 @@ int CuckooHashTable::get(int key) {
 }
 
 void CuckooHashTable::resize() {
-Pair* oldT1 = T1;
+    Pair* oldT1 = T1;
     Pair* oldT2 = T2;
     capacity *= 2;
     T1 = new Pair[capacity];
